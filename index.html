@@ -23,9 +23,9 @@
   </head>
   <body>
     <div>
-      
+       <!-- rgb(147, 201, 211) -->
     </div>
-    <nav class="navbar" style="background-color: rgb(147, 201, 211)">
+    <nav class="navbar" style="background-image:linear-gradient(to right,rgb(147, 201, 211),rgb(136, 153, 199))">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img
@@ -45,7 +45,7 @@
             aria-label="Search"
             title="search something here"
           />
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <button class="btn btn-outline-dark" type="submit">Search</button>
         </form>
         <div class="dropup-center dropdown">
           <button
@@ -85,19 +85,41 @@
           </button>
           <ul class="dropdown-menu">
             <li>
-              <a class="dropdown-item" href="sign.html" _blank
+              <a class="dropdown-item" href="login.html" target="_blank"
                 ><i class="fa-solid fa-right-to-bracket"></i> sign in</a
               >
             </li>
             <li>
-              <a class="dropdown-item" href="sign.html"
+              <a class="dropdown-item" href="signup.html" target="_blank"
                 ><i class="fa-solid fa-user-plus"></i> create an account</a
               >
             </li>
           </ul>
         </div>
-        <i class="btn fa-solid fa-cart-shopping"></i>
-        <i class="btn fa-sharp fa-solid fa-bell fa-shake"></i>
+        <div class="dropdown-center">
+          <button class="btn" 
+          type="button" 
+          data-bs-toggle="dropdown" 
+          aria-expanded="false">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+          <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">ADDED ITEM</a></li>
+              <li><a class="dropdown-item" href="#">......WILL BE....</a></li>
+              <li><a class="dropdown-item" href="#">SHOWN HERE</a></li>
+          </ul>
+        </div>
+                <div class="dropdown-center">
+          <button class="btn" 
+          type="button" 
+          data-bs-toggle="dropdown" 
+          aria-expanded="false">
+           <i class="fa-sharp fa-solid fa-bell fa-shake"></i>
+          </button>
+          <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">NOTIFICATION</a></li>
+          </ul>
+        </div>
         <button class="navbar-toggler" type="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><span class="navbar-toggler-icon"></span></button>
 
 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
