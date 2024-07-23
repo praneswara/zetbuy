@@ -97,19 +97,24 @@
           </ul>
         </div>
         <div class="dropdown-center">
-          <button class="btn" 
-          type="button" 
-          data-bs-toggle="dropdown" 
-          aria-expanded="false">
+          <button
+            class="btn"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
             <i class="fa-solid fa-cart-shopping"></i>
           </button>
-          <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">ADDED ITEM</a></li>
-              <li><a class="dropdown-item" href="#">......WILL BE....</a></li>
-              <li><a class="dropdown-item" href="#">SHOWN HERE</a></li>
+          <ul class="dropdown-menu cart-items">
+            <li class="dropdown-item"><h5>Shopping Cart</h5></li>
+            <li class="dropdown-divider"></li>
+            <li id="cart-content">
+              <span class="dropdown-item">Your cart is empty</span>
+            </li>
+            <li class="dropdown-footer"><center><button class="btn btn-outline-dark">BUY NOW</button></center></li>
           </ul>
         </div>
-                <div class="dropdown-center">
+        <div class="dropdown-center">
           <button class="btn" 
           type="button" 
           data-bs-toggle="dropdown" 
@@ -123,7 +128,7 @@
         <button class="navbar-toggler" type="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><span class="navbar-toggler-icon"></span></button>
 
 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-  <div class="offcanvas-header" style="background-color: rgb(147, 201, 211);">
+  <div class="offcanvas-header" style="background-image:linear-gradient(to right,rgb(147, 201, 211),rgb(136, 153, 199))">
     <h5 class="offcanvas-title" id="offcanvasRightLabel">HELLO, CUSTOMERS</h5>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
@@ -251,33 +256,33 @@
       <div class="card">
       <img src="./images/tshirt.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-      <h5 class="card-title">polo shirt</h5>
-      <p class="card-text">#99.99</p>
-      <a href="#" class="btn btn-primary">BUY NOW</a>
+      <h5 class="card-title">sleeve</h5>
+      <p class="card-text">₹500.00</p>
+      <button class="btn btn-outline-dark add-cart">ADD TO CART</button>
       </div>
       </div>
       <div class="card">
       <img src="./images/tshirt.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-      <h5 class="card-title">polo shirt</h5>
-      <p class="card-text">#99.99</p>
-      <a href="#" class="btn btn-primary">BUY NOW</a>
+      <h5 class="card-title">oversize</h5>
+      <p class="card-text">₹750.00</p>
+      <button class="btn btn-outline-dark add-cart">ADD TO CART</button>
       </div>
       </div>
       <div class="card">
       <img src="./images/tshirt.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-      <h5 class="card-title">polo shirt</h5>
-      <p class="card-text">#99.99</p>
-      <a href="#" class="btn btn-primary">BUY NOW</a>
+      <h5 class="card-title">printed</h5>
+      <p class="card-text">₹450.00</p>
+      <button class="btn btn-outline-dark add-cart">ADD TO CART</button>
       </div>
       </div>
       <div class="card">
       <img src="./images/tshirt.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-      <h5 class="card-title">polo shirt</h5>
-      <p class="card-text">#99.99</p>
-      <a href="#" class="btn btn-primary">BUY NOW</a>
+      <h5 class="card-title">fabric</h5>
+      <p class="card-text">₹550.00</p>
+      <button class="btn btn-outline-dark add-cart">ADD TO CART</button>
       </div>
       </div>
     </div>
@@ -285,35 +290,36 @@
       <div class="card">
       <img src="./images/tshirt.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-      <h5 class="card-title">polo shirt</h5>
-      <p class="card-text">#99.99</p>
-      <a href="#" class="btn btn-primary">BUY NOW</a>
+      <h5 class="card-title">inners</h5>
+      <p class="card-text">₹150.00</p>
+      <button class="btn btn-outline-dark add-cart">ADD TO CART</button>
       </div>
       </div>
       <div class="card">
       <img src="./images/tshirt.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-      <h5 class="card-title">polo shirt</h5>
-      <p class="card-text">#99.99</p>
-      <a href="#" class="btn btn-primary">BUY NOW</a>
+      <h5 class="card-title">dry-fit</h5>
+      <p class="card-text">₹250.00</p>
+      <button class="btn btn-outline-dark add-cart">ADD TO CART</button>
       </div>
       </div>
       <div class="card">
       <img src="./images/tshirt.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-      <h5 class="card-title">polo shirt</h5>
-      <p class="card-text">#99.99</p>
-      <a href="#" class="btn btn-primary">BUY NOW</a>
+      <h5 class="card-title">polo-shirt</h5>
+      <p class="card-text">₹350.00</p>
+      <button class="btn btn-outline-dark add-cart">ADD TO CART</button>
       </div>
       </div>
       <div class="card">
       <img src="./images/tshirt.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-      <h5 class="card-title">polo shirt</h5>
-      <p class="card-text">#99.99</p>
-      <a href="#" class="btn btn-primary">BUY NOW</a>
+      <h5 class="card-title">plain-shirt</h5>
+      <p class="card-text">₹300.00</p>
+      <button class="btn btn-outline-dark add-cart">ADD TO CART</button>
       </div>
       </div>
     </div>
   </body>
+     <script src="buy.js"></script>
 </html>
